@@ -1,47 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity: Water - Change Lives with Every Drop</title>
+
+  <!-- Font (Montserrat = Proxima Nova style) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+<!-- Header / Logo Section -->
+<header class="site-header">
+  <div class="logo-left">
+    <a href = "index.html">
+    <img src="img/charitywater_logo_horizontal.png" alt="Charity: Water Logo" class="charity-logo">
+    </a>
+  </div>
+  <div class="logo-right">
+    <img src="img/jerry_can_black.png" alt="Jerry Can Icon" class="jerry-logo">
+  </div>
+</header>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Change lives<br>with every drop</h2>
+    <p>Even the smallest gift helps bring clean water to more people.</p>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+    <form class="cta">
+      <label for="donation" class="donate-label">Pick any amount – every drop helps</label>
+      <div class="donate-input-container">
+        <input 
+          type="number" 
+          id="donation"
+          class="donate-input" 
+          placeholder="Enter amount">
+      </div>
+      <button type="submit" class="action-btn">Turn compassion into water</button>
+    </form>
+  </div>
+
+  <div class="hero-image">
+    <img src="img/Nepal_2022_CG-2245.jpg" alt="Person carrying water basket">
+  </div>
+</section>
+
+  <!-- Story Section -->
+  <section class="story">
+    <h2>Our Story</h2>
+    <p>
+      Since our founding, we've been dedicated to providing sustainable access to clean water. Each well and filtration system changes lives — improving health, education, and opportunity.
+    </p>
+  </section>
+
+  <!-- Impact Story Section -->
+  <section class="impact-story">
+    <h2>Real Impact: A mother</h2>
+    <div class="impact-content">
+      <img src= "img/journey_clean_water.gif" alt="A mother's journey to water" class="impact-image">
+      <p>
+        She used to walk miles every day to collect water for her family. Now, with a well in her village, she spends more time with her children and less time worrying about water.
+      </p>
+    </div>
+  </section>
+
 </body>
 </html>

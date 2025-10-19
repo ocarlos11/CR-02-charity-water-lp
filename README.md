@@ -22,3 +22,6 @@ With help from AI to jumpstart your layout, you'll focus on structuring your con
 ### Fonts:
 - Proxima Nova
 - Avenir
+
+### Link:
+* https://ocarlos11.github.io/CR-02-charity-water-lp/
